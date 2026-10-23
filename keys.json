@@ -1,0 +1,21 @@
+{
+ "inbox_bots": [
+  8835087282
+ ],
+ "inbox_enc": [
+  {
+   "kid": "i1",
+   "pk": "tRPjfbsQaZHgFf8yEzaPvmtdXePTNz_pCuBPaLog1k4"
+  }
+ ],
+ "issued_at": "2026-10-17T02:38:09Z",
+ "issuer_poprf": [
+  {
+   "kid": "t1",
+   "pk": "QHoMjmLQm5-i5AFXsloxEX-hF8xPhzTbi7IMHxfAVik"
+  }
+ ],
+ "server_sig": "IIG5VNFRi-3Hto5nS_Ody3Giyv2mTwqLouiLkaUnG0A",
+ "sig": "FM0FOOd5YAWEgDRIDPMrUE5bA-2A17zROqrd5yIqpUo-IM3C-1NAAXYlOfIL_8P_RNAEwSfrU5DRx8b__L8yBQ",
+ "v": 1
+}

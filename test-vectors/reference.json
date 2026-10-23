@@ -1,0 +1,113 @@
+{
+ "note": "Официальные векторы внешних стандартов, перенесены без изменений (см. source). Не генерируются.",
+ "bip39_trezor": {
+  "source": "https://github.com/trezor/python-mnemonic/blob/master/vectors.json (english, 12 слов)",
+  "source_sha256": "fa3b937b7cff9c9b8ecd3aa011faeb8d6dd67993174b72326e83f4de8fdb30f8",
+  "passphrase": "TREZOR",
+  "cases": [
+   {
+    "entropy": "00000000000000000000000000000000",
+    "mnemonic": "abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about",
+    "seed": "c55257c360c07c72029aebc1b53c05ed0362ada38ead3e3e9efa3708e53495531f09a6987599d18264c1e1c92f2cf141630c7a3c4ab7c81b2f001698e7463b04"
+   },
+   {
+    "entropy": "7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f",
+    "mnemonic": "legal winner thank year wave sausage worth useful legal winner thank yellow",
+    "seed": "2e8905819b8723fe2c1d161860e5ee1830318dbf49a83bd451cfb8440c28bd6fa457fe1296106559a3c80937a1c1069be3a3a5bd381ee6260e8d9739fce1f607"
+   },
+   {
+    "entropy": "80808080808080808080808080808080",
+    "mnemonic": "letter advice cage absurd amount doctor acoustic avoid letter advice cage above",
+    "seed": "d71de856f81a8acc65e6fc851a38d4d7ec216fd0796d0a6827a3ad6ed5511a30fa280f12eb2e47ed2ac03b5c462a0358d18d69fe4f985ec81778c1b370b652a8"
+   },
+   {
+    "entropy": "ffffffffffffffffffffffffffffffff",
+    "mnemonic": "zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo wrong",
+    "seed": "ac27495480225222079d7be181583751e86f571027b0497b5b5d11218e0a8a13332572917f0f8e5a589620c6f15b11c61dee327651a14c34e18231052e48c069"
+   },
+   {
+    "entropy": "9e885d952ad362caeb4efe34a8e91bd2",
+    "mnemonic": "ozone drill grab fiber curtain grace pudding thank cruise elder eight picnic",
+    "seed": "274ddc525802f7c828d8ef7ddbcdc5304e87ac3535913611fbbfa986d0c9e5476c91689f9c8a54fd55bd38606aa6a8595ad213d4c9c9f9aca3fb217069a41028"
+   },
+   {
+    "entropy": "c0ba5a8e914111210f2bd131f3d5e08d",
+    "mnemonic": "scheme spot photo card baby mountain device kick cradle pact join borrow",
+    "seed": "ea725895aaae8d4c1cf682c1bfd2d358d52ed9f0f0591131b559e2724bb234fca05aa9c02c57407e04ee9dc3b454aa63fbff483a8b11de949624b9f1831a9612"
+   },
+   {
+    "entropy": "23db8160a31d3e0dca3688ed941adbf3",
+    "mnemonic": "cat swing flag economy stadium alone churn speed unique patch report train",
+    "seed": "deb5f45449e615feff5640f2e49f933ff51895de3b4381832b3139941c57b59205a42480c52175b6efcffaa58a2503887c1e8b363a707256bdd2b587b46541f5"
+   },
+   {
+    "entropy": "f30f8c1da665478f49b001d94c5fc452",
+    "mnemonic": "vessel ladder alter error federal sibling chat ability sun glass valve picture",
+    "seed": "2aaa9242daafcee6aa9d7269f17d4efe271e1b9a529178d7dc139cd18747090bf9d60295d0ce74309a78852a9caadf0af48aae1c6253839624076224374bc63f"
+   }
+  ]
+ },
+ "hkdf_rfc5869": {
+  "source": "RFC 5869, Appendix A.1–A.3 (SHA-256)",
+  "cases": [
+   {
+    "ikm": "0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b",
+    "salt": "000102030405060708090a0b0c",
+    "info": "f0f1f2f3f4f5f6f7f8f9",
+    "length": 42,
+    "okm": "3cb25f25faacd57a90434f64d0362f2a2d2d0a90cf1a5a4c5db02d56ecc4c5bf34007208d5b887185865"
+   },
+   {
+    "ikm": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f",
+    "salt": "606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeaf",
+    "info": "b0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff",
+    "length": 82,
+    "okm": "b11e398dc80327a1c8e7f78c596a49344f012eda2d4efad8a050cc4c19afa97c59045a99cac7827271cb41c65e590e09da3275600c2f09b8367793a9aca3db71cc30c58179ec3e87c14c01d5c1f3434f1d87"
+   },
+   {
+    "ikm": "0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b",
+    "salt": "",
+    "info": "",
+    "length": 42,
+    "okm": "8da4e775a563c18f715f802a063c5a31b8a11f5c5ee1879ec3454e5f3c738d2d9d201395faa4b61a96c8"
+   }
+  ]
+ },
+ "jcs_rfc8785": {
+  "source": "https://github.com/cyberphone/json-canonicalization/tree/master/testdata (тестовые данные RFC 8785)",
+  "cases": [
+   {
+    "name": "arrays",
+    "input": "[\n  56,\n  {\n    \"d\": true,\n    \"10\": null,\n    \"1\": [ ]\n  }\n]\n",
+    "canonical": "[56,{\"1\":[],\"10\":null,\"d\":true}]"
+   },
+   {
+    "name": "french",
+    "input": "{\n  \"peach\": \"This sorting order\",\n  \"péché\": \"is wrong according to French\",\n  \"pêche\": \"but canonicalization MUST\",\n  \"sin\":   \"ignore locale\"\n}\n",
+    "canonical": "{\"peach\":\"This sorting order\",\"péché\":\"is wrong according to French\",\"pêche\":\"but canonicalization MUST\",\"sin\":\"ignore locale\"}"
+   },
+   {
+    "name": "unicode",
+    "input": "{\n  \"Unnormalized Unicode\":\"A\\u030a\"\n}\n",
+    "canonical": "{\"Unnormalized Unicode\":\"Å\"}"
+   },
+   {
+    "name": "weird",
+    "input": "{\n  \"\\u20ac\": \"Euro Sign\",\n  \"\\r\": \"Carriage Return\",\n  \"\\u000a\": \"Newline\",\n  \"1\": \"One\",\n  \"\\u0080\": \"Control\\u007f\",\n  \"\\ud83d\\ude02\": \"Smiley\",\n  \"\\u00f6\": \"Latin Small Letter O With Diaeresis\",\n  \"\\ufb33\": \"Hebrew Letter Dalet With Dagesh\",\n  \"</script>\": \"Browser Challenge\"\n}\n",
+    "canonical": "{\"\\n\":\"Newline\",\"\\r\":\"Carriage Return\",\"1\":\"One\",\"</script>\":\"Browser Challenge\",\"\":\"Control\",\"ö\":\"Latin Small Letter O With Diaeresis\",\"€\":\"Euro Sign\",\"😂\":\"Smiley\",\"דּ\":\"Hebrew Letter Dalet With Dagesh\"}"
+   }
+  ],
+  "reject": [
+   {
+    "name": "structures",
+    "why": "дробные числа: в протоколе Veil запрещены (spec/04, «Строгий JSON»)",
+    "input": "{\n  \"1\": {\"f\": {\"f\": \"hi\",\"F\": 5} ,\"\\n\": 56.0},\n  \"10\": { },\n  \"\": \"empty\",\n  \"a\": { },\n  \"111\": [ {\"e\": \"yes\",\"E\": \"no\" } ],\n  \"A\": { }\n}"
+   },
+   {
+    "name": "values",
+    "why": "дробные числа: в протоколе Veil запрещены (spec/04, «Строгий JSON»)",
+    "input": "{\n  \"numbers\": [333333333.33333329, 1E30, 4.50, 2e-3, 0.000000000000000000000000001],\n  \"string\": \"\\u20ac$\\u000F\\u000aA'\\u0042\\u0022\\u005c\\\\\\\"\\/\",\n  \"literals\": [null, true, false]\n}"
+   }
+  ]
+ }
+}
