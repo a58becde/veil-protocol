@@ -8,7 +8,13 @@
    "pk": "tRPjfbsQaZHgFf8yEzaPvmtdXePTNz_pCuBPaLog1k4"
   }
  ],
- "issued_at": "2026-10-17T02:38:09Z",
+ "inbox_names": [
+  {
+   "id": 8835087282,
+   "username": "serverbot_secretchat_bot"
+  }
+ ],
+ "issued_at": "2026-10-25T23:52:22Z",
  "issuer_poprf": [
   {
    "kid": "t1",
@@ -16,6 +22,6 @@
   }
  ],
  "server_sig": "IIG5VNFRi-3Hto5nS_Ody3Giyv2mTwqLouiLkaUnG0A",
- "sig": "FM0FOOd5YAWEgDRIDPMrUE5bA-2A17zROqrd5yIqpUo-IM3C-1NAAXYlOfIL_8P_RNAEwSfrU5DRx8b__L8yBQ",
+ "sig": "4-LfsAyR7Xjnf7zaYfRyf7TVNHsTL0PZOeZVuVvl5QzbpGCTgZA-e-_Om3GLzqe8w2FCiAD8gL3PuFf_fRFGCg",
  "v": 1
 }
