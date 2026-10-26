@@ -70,7 +70,7 @@ info `"veil/v1/journal/resp"` и `"veil/v1/journal/auth"`); клиент, кот
 | kind | Как публикуется | Шапка |
 |---|---|---|
 | `text` | `sendMessage` (текст + entities) | в тексте |
-| `photo`, `video`, `animation`, `document`, `audio`, `voice` | `copyMessage` с новой подписью | в подписи (лимит 1024) |
+| `photo`, `video`, `animation`, `document`, `audio`, `voice` | `send*` по `file_id` приёмного бота с новой подписью | в подписи (лимит 1024) |
 | `album` | `sendMediaGroup` по `file_id` приёмного бота, подпись у первого элемента (`copyMessages` не умеет менять подпись) | в подписи первого |
 | `video_note`, `sticker` | сначала сообщение-шапка, затем медиа ответом на неё | отдельным сообщением |
 | `poll` | сначала шапка, затем `copyMessage` опроса | отдельным сообщением |
